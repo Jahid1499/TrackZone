@@ -1,0 +1,24 @@
+.container{
+    background: #EBF3FF;
+    width: 60%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    padding: 0px 30px;
+}
+
+.section__div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.card__style{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

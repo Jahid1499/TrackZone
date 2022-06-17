@@ -1,0 +1,118 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer {
+    width: 500px;
+    min-height: 450px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: -8px;
+    color: #13007D;
+}
+
+.titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modalContainer .body {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.modalContainer .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.close__button {background-color: #FFC107;}
+.save__button {background-color: #28A745;}
+.clear__button {background-color: #c21515;}
+
+/*modal form section start*/
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form__group{}
+.form__group label{
+    display: block;
+    padding: 6px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.0025em;
+    color: rgba(0, 0, 0, 0.6);
+}
+.form__group label span{
+    color: red;
+}
+.form__group span{
+    color: red;
+    font-size: 13px;
+    line-height: 30px;
+}
+.form__group input, .form__group select{
+    width: 96%;
+    height: 25px;
+    background: rgba(217, 217, 217, 0.5);
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.025em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.form__group select{
+    width: 100%;
+    height: 46px;
+}
+.form__group input:focus{
+    outline: 1px solid #9EDEFA;
+}
+
+.outline__error {
+    outline: 1px solid red !important;
+}
+
+.outline__normal{
+    outline: 1px solid #9EDEFA;
+}
+/*modal form section end*/
